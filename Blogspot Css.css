@@ -1,0 +1,106 @@
+  @font-face {
+    font-family: 'Droid Sans';
+    font-style: normal;
+    font-weight: 400;#1d1f21
+    src: local('Droid Sans'), local('DroidSans'), url(../dfont.woff2) format('woff2');
+  }
+  body{margin-bottom:80px;background-color:#;}
+  .outerbody{min-height:10px;
+  }
+  .headerbody{font-size:20px;background:#0d5c9a;
+              padding:15px;color:#fff;
+              font-family:droid sans;font-weight:normal;
+  			margin-bottom:20px;}
+  .headerbody .subhedding{color:#ddd;font-size:13px;font-weight: lighter;b;font-style: italic;margin-top:5px;display:bock;}
+  .headerbody .writername{color:#fff;font-size:10px;font-weight:normal;margin-top:5px;display:bock;text-align:right;}
+
+  .testimonial{ margin: 0 20px 50px; }
+  .testimonial .pic{
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin: 0 15px 15px 0;
+  }
+  .testimonial .pic img{
+      width: 100%;
+      height: auto;
+      border-radius: 100%;
+      border-style: groove;
+      border-color: #ffffff
+      border-width: 5px
+  }
+  .testimonial .testimonial-profile{
+      display: inline-block;
+      position: relative;
+      top: 15px;
+  }
+  .testimonial .title{
+      display: block;
+      font-size: 20px;
+      font-weight: 600;
+      color: #2f2f2f;
+      text-transform: capitalize;
+      margin: 0 0 7px 0;
+  }
+  .testimonial .post{
+      display: block;
+      font-size: 14px;
+      color: #5d7aa7;
+  }
+  .testimonial .description{
+      padding: 20px 22px;
+      background: #1f487e;
+      font-size: 15px;
+      color: #fff;
+      line-height: 25px;
+      margin: 0;
+      position: relative;
+  }
+  .testimonial .description:before,
+  .testimonial .description:after{
+      content: "";
+      border-width: 18px 0 0 18px;
+      border-style: solid;
+      border-color: #5d7aa7 transparent transparent;
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+  }
+  .testimonial .description:after{
+      border-width: 18px 18px 0 0;
+      left: auto;
+      right: 0;
+  }
+  .owl-theme .owl-controls{
+      margin-top: 10px;
+      margin-left: 30px;
+  }
+  .owl-theme .owl-controls .owl-buttons div{
+      opacity: 0.8;
+      background: #fff;
+  }
+  .owl-prev:before,
+  .owl-next:before{
+      content: "\f053";
+      font-family: "Font Awesome 5 Free"; font-weight: 900;
+      font-size: 1000px;
+      color: #1f487e;
+  }
+  .imgbox{margin-bottom:10px;text-align:center;}
+  .imgbox img{border:1px solid #bbb;padding:5px;background:#eee;d isplay:inline-block;
+             min-width:100px;max-width:90%;min-width:150px;}
+
+  .mainbody{background:#ffffff;padding:15px;font-family:droid sans;font-size:16px;line-height:23px;
+            color:#555;text-align:justify;}
+
+  .mainbody b{color:#069;}
+  .ptitle{padding:10px;font-family:droid sans;font-size:15px;background:#E9E0D6;margin-top:10px;margin-bottom:10px;}
+  .impquestions{background:#f4f5f0;font-size:14px;color:#555;font-family:droid sans;line-height:23px;padding:10px;
+                text-align:justify;}
+  .impquestions b{color:#069;}
+
+  .impquestions1{background:#f4f5f0;font-size:14px;color:#555;font-family:droid sans;line-height:23px;padding:10px;
+                text-align:justify;}
+  .impquestions1 b{color:#069;}
+  .impquestions1 ol{padding:0px;margin:0px;padding-left:20px;}
